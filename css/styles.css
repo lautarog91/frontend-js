@@ -1,0 +1,181 @@
+*{
+padding: 0;
+margin:0 ;
+box-sizing: border-box;}
+
+
+.body{background-color:#faf2e1;}
+
+.header h1{color: rgb(0, 0, 0);text-align: center;
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300%;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;;
+    margin-bottom:2% ;margin-top: 1%;}
+
+    .div-navbar{position: sticky;top: 0;}
+    .navbar{ margin-top: 3%;position:sticky;}
+   
+    .nav-link:hover{scale:1.03 ;}
+
+
+    #nav-link{color: rgb(156, 85, 85)  ;width:220px ;height: 50px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500 ;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;font-size: 150%; ;}
+    #nav-link2{color: rgb(156, 85, 85)   ;width:220px ;height: 50px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;font-size: 150%;}
+    #nav-link3{color: rgb(156, 85, 85)  ;width:220px ;height: 50px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;font-size: 150%;}
+    #nav-link4{color: rgb(156, 85, 85) ;width:220px ;height: 50px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;font-size: 150%;}
+      .nabvar-toggler-icon{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;font-size: 100%;color: rgb(156, 85, 85)}
+
+      .nabvar-toggler{border:1px solid  rgb(156, 85, 85);}
+
+.header-img{width: 100%;height: 100%;margin-top: 0.1%;text-align: center;}
+.header h3{position: absolute;top:95% ;left: 43%;background-color:rgb(213, 134, 134) ;color: white;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300%;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;font-size: 100%;
+padding: 0.5%;}
+#nosotros{display:flex; flex-direction:column ;justify-content: center;align-items: center;margin-top:5% ;}
+#nosotros h2{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300%;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;color: rgb(156, 85, 85) }
+.nosotros{display: flex;justify-content:center;align-items:  center; margin-top: 2% ;width:100% ;}
+.nosotros img{width:200px ;height: 200px; border-radius:50% ;margin-left:5% ;}
+
+.separador{ margin-top: 5%;width:100% ;}
+.separador img{width: 100%;height:550px;}
+#galeria{display: flex;flex-direction: column;align-items: center;margin-top: 5%;}
+#galeria h2{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300%;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;color: rgb(156, 85, 85)}
+#galeria p{margin-top: 1%;}
+.galeria-platos {display: flex; align-items: center;justify-content: space-between;flex-wrap: wrap; margin-top: 2%;}
+.galeria-platos div{width: 275px; height: 225px;margin-left: 2%;margin-bottom: 5%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.galeria-platos div p{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;color: rgb(156, 85, 85);font-size: 122%;}
+.galeria-platos div img{width:150px;height:148px;border-radius: 50%;}
+
+#formulario{display: flex;flex-direction: column;align-items: center;margin-top: 1%;}
+#formulario h2{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300%;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;color: rgb(156, 85, 85)}
+#formulario p{margin-top: 1%;}
+.nombre-mail{display: flex;justify-content: space-around;}
+.form{display: flex;flex-direction: column;align-items: center;justify-content: center;margin-top: 1%;}
+.text-submit{display: flex;flex-direction: column;margin-top: 1%;}
+.text-submit button{margin-top: 1%;background-color: rgb(156, 85, 85) ;color: white;border:1px solid black ;}
+
+#footer{background-color:  rgb(156, 85, 85);margin-top: 5%;}
+#footer h2{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-optical-sizing: auto;
+    font-size: 100%;
+    font-weight: 300%;
+    font-style: italic;
+    font-variation-settings:
+      "wdth" 100;color: white;}
+
+      /*Media query*/
+
+      @media only screen and (max-width: 1300px){
+
+        .header h3{top:80% ;}
+      }
+
+       @media only screen and (max-width: 1100px){
+
+        .header h1{font-size: 200%;}
+        #nav-link{font-size:135% ;}
+        #nav-link2{font-size:135% ;}
+        #nav-link3{font-size:135% ;}
+        #nav-link4{font-size:135% ;}
+        .header h3{top:70% ;}
+        #nosotros h2{font-weight: 250%;font-size:170% ;}
+        #galeria h2{font-weight: 250%;font-size:170%}
+        #formulario h2{font-weight: 250%;font-size:170%}
+
+        #nosotros .nosotros p{font-size:85% ;}
+        #galeria p{font-size:85%}
+        .nosotros img{width:150px ;height: 150px;}
+        .separador img{width: 100%;height:400px;}
+        #formulario p{margin-top: 1% ;font-size: 85%;}
+       }
+
+
+       @media only screen and (max-width: 947px){
+.header h3{top:60% ;}
+       }
+
+              @media only screen and (max-width: 820px){
+.header h3{display: none ;}
+       }
+
+       @media only screen and (max-width: 600px){
+.nosotros{display: flex;flex-direction: column-reverse;justify-content:center;align-items:  center; margin-top: 2% ;width:100% ;}
+.nosotros img{margin-top: 5%;} 
+.nosotros p{margin-top: 5%;}
+.galeria-platos {display: flex;flex-direction: column; align-items: center;justify-content: space-between;flex-wrap: wrap; margin-top: 2%;}
+
+}
+
+       @media only screen and (max-width: 550px){
+        .nabvar-toggler-icon{font-size: 90%;}
+        .separador img{width: 100%;height:250px;}
+       }
+
+       @media only screen and (max-width: 450px){
+        #nosotros h2{font-weight: 222%;font-size:150% ;}
+        #galeria h2{font-weight: 222%;font-size:150%}
+        #formulario h2{font-weight: 222%;font-size:150%}
+        #nosotros .nosotros p{font-size:70% ;}
+         #galeria p{font-size:70%}
+         .galeria-platos div img{width:111px ;height: 111px;}
+        .nosotros img{width:110px ;height: 110px;}
+        #formulario p{font-size: 70%;}
+       }
+       @media only screen and (max-width: 400px){
+        .header h1{font-size: 160%;}
+        .nabvar-toggler-icon{font-size: 80%;}
+        .separador img{width: 100%;height:200px;}
+       }
