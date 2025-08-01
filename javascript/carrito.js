@@ -65,8 +65,7 @@ function limpiarCarrito() {
    }
 }
 
-// Ejecuta la función antes de cargar el DOM
+
 document.addEventListener('DOMContentLoaded', handleCart);
 
-// Ejecutar la función al finalizar el DOM
 window.limpiarCarrito = limpiarCarrito;
